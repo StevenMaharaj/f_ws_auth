@@ -1,0 +1,17 @@
+[package]
+name = "f_ws_auth"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+url = "2.2.2"
+tungstenite = { version = "0.20.0", features = ["native-tls"] }
+dotenvy = "0.15.7"
+chrono = "0.4.19"
+hmac = "0.12.1"
+sha2 = "0.10.7"
+ring = "0.16.20"
+base64 = "0.21.2"
+
